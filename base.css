@@ -26,8 +26,7 @@ img{
 /*utilities*/
 .container{
     width:90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
 }
 .btn{
     display: block;
@@ -45,6 +44,23 @@ img{
     color: white;
 }
 /*header*/
+
+/*you will have more classes
+because of the assignment*/
+
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu-bar a{
+    margin-right: 20px;
+}
+.header-contact{
+    background-color: orange;
+    height: 300px;
+}
+
 /*about us*/
 .more-about-container{
     display: flex;
@@ -56,7 +72,11 @@ img{
 
 /*houses*/
 /* :hover is for moouse over anumation*/
+.houses-container{
+    display: flex;
+}
 .houses-item{
+    margin-right: 20px;
     background-color: lightgray;
 }
 .houses-item-img{
@@ -71,4 +91,79 @@ ul li{
     color:green;
     font-weight: 700;
     font-size: 20px;
+}
+
+/*contact*/
+.contact-sub{
+    font-weight: bold;
+    text-align: center;
+}
+.contact-details{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.form-container{
+    border-radius: 20px;
+    padding:20px;
+    background-color: lightgray;
+}
+fieldset{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.form-control{
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-control input,
+.form-control textarea{
+    width: 85%;
+    padding: 5px;
+    border: none;
+}
+.form-control label{
+    width: 15%;
+}
+
+
+/*footer*/
+.footer-contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    height: 200px;
+    margin-top: 50px;
+}
+.text-b{
+    font-weight: bold;
+}
+.text-privacy{
+    font-weight: bold;
+    text-decoration: underline;
+    border-left:3px solid black;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.copy-text{
+    display: flex;
+}
+.icons{
+    display: flex;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    width:16px;
 }
